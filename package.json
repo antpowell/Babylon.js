@@ -38,7 +38,9 @@
     },
     "readme": "Babylon.js is a 3D engine based on webgl and javascript",
     "readmeFilename": "README.md",
-    "dependencies": {},
+    "dependencies": {
+        "@types/webgl2": "0.0.4"
+    },
     "devDependencies": {
         "base64-font-loader": "0.0.4",
         "typescript": "^3.0.1"

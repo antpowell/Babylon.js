@@ -3,7 +3,7 @@
         "experimentalDecorators": true,
         "module": "esnext",
         "target": "es5",
-        "noImplicitAny": true,
+        // "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
@@ -38,6 +38,9 @@
                 "./helpers/ISplit.d.ts"
             ]
         },
-        "outDir": "./build"
+        "outDir": "./build",
+        "types": [
+            "webgl2"
+        ]
     }
 }
